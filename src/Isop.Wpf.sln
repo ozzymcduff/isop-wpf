@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isop.Wpf", "Isop.Wpf\Isop.Wpf.csproj", "{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isop.Wpf.Tests", "Isop.Wpf.Tests\Isop.Wpf.Tests.csproj", "{469E06C3-4DCC-44DF-A653-186272D53D7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{616AC38F-F483-4A59-A09C-EB817929F7C7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{623E4E99-6404-4ED3-ACC4-98BB79C8978B}"
+	ProjectSection(SolutionItems) = preProject
+		..\rakefile.rb = ..\rakefile.rb
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{469E06C3-4DCC-44DF-A653-186272D53D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469E06C3-4DCC-44DF-A653-186272D53D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469E06C3-4DCC-44DF-A653-186272D53D7E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{469E06C3-4DCC-44DF-A653-186272D53D7E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{469E06C3-4DCC-44DF-A653-186272D53D7E}.Debug|x86.ActiveCfg = Debug|x86
+		{469E06C3-4DCC-44DF-A653-186272D53D7E}.Debug|x86.Build.0 = Debug|x86
+		{469E06C3-4DCC-44DF-A653-186272D53D7E}.Release|Any CPU.ActiveCfg = Release|x86
+		{469E06C3-4DCC-44DF-A653-186272D53D7E}.Release|Any CPU.Build.0 = Release|x86
+		{469E06C3-4DCC-44DF-A653-186272D53D7E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{469E06C3-4DCC-44DF-A653-186272D53D7E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{469E06C3-4DCC-44DF-A653-186272D53D7E}.Release|x86.ActiveCfg = Release|x86
+		{469E06C3-4DCC-44DF-A653-186272D53D7E}.Release|x86.Build.0 = Release|x86
+		{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}.Debug|Any CPU.Build.0 = Debug|x86
+		{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}.Debug|x86.ActiveCfg = Debug|x86
+		{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}.Debug|x86.Build.0 = Debug|x86
+		{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}.Release|Any CPU.ActiveCfg = Release|x86
+		{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}.Release|Any CPU.Build.0 = Release|x86
+		{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}.Release|Mixed Platforms.Build.0 = Release|x86
+		{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}.Release|x86.ActiveCfg = Release|x86
+		{47DA4A1C-3FB5-4FEE-99B3-CE102BCD349C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 120
+		$2.TabsToSpaces = False
+		$2.inheritsSet = VisualStudio
+		$2.inheritsScope = text/plain
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
