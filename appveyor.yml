@@ -1,0 +1,14 @@
+version: 1.0.{build}
+configuration: Release
+before_build:
+  - cd src
+  - nuget restore Isop.Wpf.sln
+  - cd ..
+build:
+  project: src\Isop.Wpf.sln
+  verbosity: minimal
+  publish_nuget: true
+nuget:
+  account_feed: false
+  project_feed: true
+  disable_publish_on_pr: true
